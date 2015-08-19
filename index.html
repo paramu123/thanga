@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Manual Dub</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/paral.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="js/jquery-002.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/respond.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+
+    $(".slidingDiv").hide();
+	$(".show_hide").show();
+	
+	$('.show_hide').click(function(){
+	$(".slidingDiv").slideToggle();
+	});
+
+});
+
+</script>
+<script src="js/scrl.js" type="text/javascript"></script>
+<script type="text/javascript">
+			$(document).ready(function(){ 
+			
+			$(window).scroll(function(){
+				if ($(this).scrollTop() > 100) {
+					$('.scrollup').fadeIn();
+				} else {
+					$('.scrollup').fadeOut();
+				}
+			}); 
+			
+			$('.scrollup').click(function(){
+				$("html, body").animate({ scrollTop: 0 }, 600);
+				return false;
+			});
+ 
+		});
+		</script>
+</head>
+<body>
+<!-- Begin Header -->
+<div class="header">
+  <div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Manual Dub" /></a> </div>
+      <div class="collapse navbar-collapse" id="example-navbar-collapse">
+        <div class="nav-rt top pull-right">
+          <div class="social">
+            <ul>
+              <li><a href="#" class="fb"></a></li>
+              <li><a href="#" class="twit"></a></li>
+            </ul>
+          </div>
+        </div>
+        <ul class="nav navbar-nav pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">MD#6 </a></li>
+          <li> <a href="#">About Manual </a> </li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Volunteer</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
+<!-- End Header -->
+<!-- Begin Carousel -->
+<div id="myCarousel" class="carousel slide">
+  <!-- Carousel indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active">1</li>
+    <li data-target="#myCarousel" data-slide-to="1">2</li>
+    <li data-target="#myCarousel" data-slide-to="2">3</li>
+  </ol>
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <div class="banner_txt">
+        <h1>MD festival</h1>
+        <h2>Aug 19, 2015 @ 12.00 AM</h2>
+      </div>
+      <img src="images/banner1.jpg" alt="First slide"> </div>
+    <div class="item">
+      <div class="banner_txt">
+        <h1>DJ Mixing</h1>
+        <h2>Aug 19, 2015 @ 3.00 PM</h2>
+      </div>
+      <img src="images/banner2.jpg" alt="First slide"> </div>
+    <div class="item">
+      <div class="banner_txt">
+        <h1>Dinner Event</h1>
+        <h2>Aug 19, 2015 @ 7.00 PM</h2>
+      </div>
+      <img src="images/banner3.jpg" alt="First slide"> </div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" 
+      data-slide="prev"><img src="images/nav_left.png"></a> <a class="carousel-control right" href="#myCarousel" 
+      data-slide="next"><img src="images/nav_right.png"></a> </div>
+<!-- End Carousel -->
+<!-- Begin Welcome Content -->
+<div class="content_sctn container">
+  <h1>WELCOME TO MANUEL DUB</h1>
+  <h2>FESTIVAL VOLUNTEERS</h2>
+  <p>Manuel Dub is a strictly not-for-profit event dedicated to the memory of Manuel. On the one hand, this has enabled us to
+    host some of dub music’s finest artists who after feeling moved by the energy, dedication and love that goes into the event
+    agree to perform for a  reduced fee or even free of charge. On the other hand it means that we are in constant need 
+    of  volunteers to make it happen and keep it going</p>
+</div>
+<!-- End Welcome Content -->
+<!-- Begin Parallax-->
+<section class="module parallax parallax-1" id="slide2" data-slide="2"  >
+  <div class="container">
+    <h1> JOIN OUR FAMILY</h1>
+  </div>
+</section>
+<!-- End Parallax-->
+<!-- Begin Form Secn-->
+<div class="form_secn">
+  <div class="">
+    <p> You simply just have to choose the shift you want in our system. You are going to provide us with few personal details
+      as well as professional background and skills but don’t worry, we only want to know how we can use your 
+      awesome skills to arrange the best edition of MD festival ever!! </p>
+  </div>
+</div>
+<!-- End Form Secn-->
+<!-- Begin Title-->
+<div class="title">
+  <h2>So tell us a bit about yourself filling up the form below</h2>
+</div>
+<!-- End Title-->
+<!-- Begin Form Secn-->
+<div class="form_secn">
+  <div class="">
+    <div class="row form_row">
+      <div class="col-sm-6 col-md-6">
+        <div class="form-group">
+          <label for="name">First Name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6">
+        <div class="form-group">
+          <label for="name">Last Name</label>
+          <input type="text" class="form-control" id="name" >
+        </div>
+      </div>
+    </div>
+    <div class="row form_row">
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label for="name">Address</label>
+          <input type="text" class="form-control" id="name" >
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label for="name">E-mail</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+      </div>
+    </div>
+    <div class="row form_row">
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label for="name">Telephone No.</label>
+          <input type="text" class="form-control" id="name" >
+          <span>Enter telephone number. Add +XX for international numbers</span> </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label for="name">Gender</label>
+          <div class="clearfix"></div>
+          <input name="" type="radio" value="">
+          Male
+          <input name="" type="radio" value="">
+          Female </div>
+      </div>
+    </div>
+    <div class="row form_row">
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label for="name">Category</label>
+          <div class="clearfix"></div>
+          <div class="sbox">
+            <input name="" type="checkbox" value="">
+            Students</div>
+          <div class="sbox">
+            <input name="" type="checkbox" value="">
+            Business People</div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <label for="name">Comments and other relevant experience</label>
+          <div class="clearfix"></div>
+          <textarea name="" cols="" rows=""></textarea>
+          <div class="clearfix"></div>
+          <span>Enter telephone number. Add +XX for international numbers</span> </div>
+      </div>
+    </div>
+    <div class="row submit">
+      <button type="button" class="btn btn-warning">Submit</button>
+    </div>
+  </div>
+</div>
+<!-- End Form Secn-->
+<!-- Begin Video Secn-->
+<div class="video_secn">
+  <h2>Check the video below to get an impression of Manuel Dub vibe, <br>
+    and how much volunteer mean for us.</h2>
+  <div class="video-container">
+    <video controls poster="video/poster.jpg">
+      <source src="video/Business Solutions_VP8.webm"  type="video/webm" />
+      <object type="application/x-shockwave-flash" data="video/video-js.SWF">
+        <param name="movie" value="video/video-js.SWF" />
+        <param name="flashvars" value="autostart=true&amp;controlbar=over&amp;image=images/slide_7.jpg&amp;file=video/Business Solutions_VP8.webm" />
+        <img src="images/slide_7.jpg" width="640" height="360" alt="__TITLE__"
+		     title="No video playback capabilities, please download the video below" />
+      </object>
+    </video>
+  </div>
+</div>
+<!-- End Video Secn-->
+<!-- Begin Contact Secn-->
+<div class="contact_secn">
+  <div class="col-sm-4 col-md-4 col-xs-12"> <i class="glyphicon glyphicon-phone"></i>
+    <p>+39 (347) 012-07-55</p>
+  </div>
+  <div class="col-sm-4 col-md-4 col-xs-12"> <i class="glyphicon glyphicon-map-marker"></i>
+    <p>795 Folsom Ave, Suite 600
+      San Francisco, CA 94107</p>
+  </div>
+  <div class="col-sm-4 col-md-4 col-xs-12"> <i class="glyphicon glyphicon-envelope"></i>
+    <p>info@manueldub.org</p>
+  </div>
+  <div class="clearfix"></div>
+</div>
+<!-- End Contact Secn-->
+<a style="display: inline;" href="#" class="scrollup">Scroll</a>
+<!-- Begin Footer-->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-xs-7 copyright"> Copyright © 2015 Manuel Dub </div>
+      <div class="col-lg-6">
+        <div class="social">
+          <ul>
+            <li><a href="#" class="fb"></a></li>
+            <li><a href="#" class="twit"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Footer-->
+<script> $(function(){ $(".dropdown-toggle").dropdown('toggle'); }); </script>
+</body>
+</html>
